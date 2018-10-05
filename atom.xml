@@ -5,9 +5,9 @@
   <subtitle>若矢失之，则失远之。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://nav1rain.github.io/"/>
   <updated>2018-10-04T12:26:40.326Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://nav1rain.github.io/</id>
   
   <author>
     <name>宋子祺</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/04/hello-world/"/>
-    <id>http://yoursite.com/2018/10/04/hello-world/</id>
+    <link href="http://nav1rain.github.io/2018/10/04/hello-world/"/>
+    <id>http://nav1rain.github.io/2018/10/04/hello-world/</id>
     <published>2018-10-04T09:44:04.124Z</published>
     <updated>2018-10-04T12:26:40.326Z</updated>
     
