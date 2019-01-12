@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[hello,world]]></title>
-    <url>%2F2018%2F10%2F06%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[若矢失之，则矢远之]]></content>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title>hello,world</title>
+      <link href="/2018/10/06/hello-world/"/>
+      <url>/2018/10/06/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h1 id="若矢失之，则矢远之"><a href="#若矢失之，则矢远之" class="headerlink" title="若矢失之，则矢远之"></a>若矢失之，则矢远之</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+  
+  
 </search>
