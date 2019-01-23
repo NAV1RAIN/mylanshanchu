@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nav1rain.github.io/"/>
-  <updated>2018-10-06T05:09:36.271Z</updated>
+  <updated>2019-01-22T23:54:35.132Z</updated>
   <id>http://nav1rain.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>小希的迷宫 - HDU 1272</title>
+    <link href="http://nav1rain.github.io/2019/01/12/%E5%B0%8F%E5%B8%8C%E7%9A%84%E8%BF%B7%E5%AE%AB-HDU%201272/"/>
+    <id>http://nav1rain.github.io/2019/01/12/小希的迷宫-HDU 1272/</id>
+    <published>2019-01-12T06:59:31.000Z</published>
+    <updated>2019-01-22T23:54:35.132Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="小希的迷宫-HDU-1272"><a href="#小希的迷宫-HDU-1272" class="headerlink" title="小希的迷宫 - HDU 1272"></a>小希的迷宫 - HDU 1272</h1><p>原题链接：<a href="http://acm.hdu.edu.cn/showproblem.php?pid=1272" target="_blank" rel="noopener">http://acm.hdu.edu.cn/showproblem.php?pid=1272</a></p><h2 id="题意："><a href="#题意：" class="headerlink" title="题意："></a>题意：</h2><pre><code>每一条边都是强连通（也就是双向连通）的。要求你判断图中的每个点是否都是对其他的点只有一条路径达到，而不是多条。</code></pre><h2 id="解题方法："><a href="#解题方法：" class="headerlink" title="解题方法："></a>解题方法：</h2><pre><code>采用的是简单并查集的方法。如果输入的两个点已经在一个集合中了，就要输出No。因为已经有一条路了。</code></pre><h2 id="AC代码"><a href="#AC代码" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;小希的迷宫-HDU-1272&quot;&gt;&lt;a href=&quot;#小希的迷宫-HDU-1272&quot; class=&quot;headerlink&quot; title=&quot;小希的迷宫 - HDU 1272&quot;&gt;&lt;/a&gt;小希的迷宫 - HDU 1272&lt;/h1&gt;&lt;p&gt;原题链接：&lt;a href=&quot;http
+      
+    
+    </summary>
+    
+      <category term="并查集" scheme="http://nav1rain.github.io/categories/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+      <category term="简单并查集" scheme="http://nav1rain.github.io/categories/%E5%B9%B6%E6%9F%A5%E9%9B%86/%E7%AE%80%E5%8D%95%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    
+      <category term="-ACM -并查集 -简单并查集" scheme="http://nav1rain.github.io/tags/ACM-%E5%B9%B6%E6%9F%A5%E9%9B%86-%E7%AE%80%E5%8D%95%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hello,world</title>
     <link href="http://nav1rain.github.io/2018/10/06/hello-world/"/>
     <id>http://nav1rain.github.io/2018/10/06/hello-world/</id>
     <published>2018-10-06T02:42:47.000Z</published>
-    <updated>2018-10-06T05:09:36.271Z</updated>
+    <updated>2019-01-22T23:54:35.131Z</updated>
     
     <content type="html"><![CDATA[<h1 id="若矢失之，则矢远之"><a href="#若矢失之，则矢远之" class="headerlink" title="若矢失之，则矢远之"></a>若矢失之，则矢远之</h1>]]></content>
     
