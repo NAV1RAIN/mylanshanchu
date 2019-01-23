@@ -5,11 +5,12 @@
     <url>%2F2019%2F01%2F12%2F%E5%B0%8F%E5%B8%8C%E7%9A%84%E8%BF%B7%E5%AE%AB-HDU%201272%2F</url>
     <content type="text"><![CDATA[小希的迷宫 - HDU 1272原题链接：http://acm.hdu.edu.cn/showproblem.php?pid=1272 题意：每一条边都是强连通（也就是双向连通）的。要求你判断图中的每个点是否都是对其他的点只有一条路径达到，而不是多条。 解题方法：采用的是简单并查集的方法。如果输入的两个点已经在一个集合中了，就要输出No。因为已经有一条路了。 AC代码1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556#include &lt;cstdio&gt;using namespace std;const int SIZE = 100006;int node[SIZE];bool ok[SIZE];void Init() &#123; for(int i = 0; i &lt;= SIZE; i++) &#123; node[i] = i, ok[i] = false; &#125;&#125;int Find(int x) &#123; if(x != node[x]) node[x] = Find(node[x]); return node[x];&#125;void Unit(int x, int y) &#123; x = Find(x); y = Find(y); node[y] = x;&#125;int main() &#123; int a, b; while(~scanf("%d%d",&amp;a,&amp;b)) &#123; if(a == -1 &amp;&amp; b == -1) break; Init(); int FLAG = 0; while(1) &#123; if(a == 0 &amp;&amp; b == 0) break; if(Find(a) == Find(b)) FLAG = 1; Unit(a,b); ok[a] = 1, ok[b] = 1; scanf("%d%d",&amp;a,&amp;b); &#125; if(FLAG == 1) printf("No\n"); else &#123; int sum = 0; for(int i = 0; i &lt;= 100000; i++) if(ok[i] &amp;&amp; node[i] == i) sum++; if(sum &gt; 1) printf("No\n"); else printf("Yes\n"); &#125; &#125; return 0;&#125;]]></content>
       <categories>
+        <category>HDU</category>
         <category>并查集</category>
         <category>简单并查集</category>
       </categories>
       <tags>
-        <tag>ACM</tag>
+        <tag>HDU</tag>
         <tag>并查集</tag>
         <tag>简单并查集</tag>
       </tags>
